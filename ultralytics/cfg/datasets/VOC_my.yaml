@@ -1,0 +1,16 @@
+path: /home/shengtuo/tangfan/EPB/kitti/kitti_yolo/
+# path: D:/TT_GG_FF/Data/smoke_1/
+train: # train images (relative to 'path')  16551 images
+  - images/train/
+
+val: # val images (relative to 'path')  4952 images
+  - images/val/
+
+test: # test images (optional)
+  - images/test/
+
+# Classes
+names:
+  0 : car
+  1 : pedestrian
+  2 : cyclist
