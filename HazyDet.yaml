@@ -1,0 +1,11 @@
+path:  E:/BaiduNetdiskDownload/HazyDet
+train: train/images
+val: val/images
+test: test/images
+
+
+# Classes-
+names:
+  0: car
+  1: truck
+  2: bus

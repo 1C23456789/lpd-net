@@ -1,0 +1,16 @@
+path: /public/home/hpc70159/CYB/yolo8/ultralytics-8.2.23/data
+train: foggy/train/images
+val: foggy/val/images
+test: foggy/test/images
+
+
+# Classes
+names:
+  0: can
+  1: person
+  2: rider
+  3: truck
+  4: bus
+  5: train
+  6: motorcycle
+  7: bicycle
